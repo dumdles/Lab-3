@@ -3,7 +3,7 @@ import Lab3
 print("Test_Lab3")
 
 
-def test_bubble_sort_ascending():
+def test_bubble_sort_ascending(): # Test Case 1
     result = []
     input_arr = [64, 34, 25, 12, 22, 11, 90]
     test_arr = [11, 12, 22, 25, 34, 64, 90]
@@ -12,7 +12,7 @@ def test_bubble_sort_ascending():
 
     assert (result == test_arr)
 
-def test_bubble_sort_descending():
+def test_bubble_sort_descending(): # Test Case 2
     result = []
     input_arr = [64, 34, 25, 12, 22, 11, 90]
     test_arr = [90, 64, 34, 25, 22, 12, 11]
@@ -21,7 +21,7 @@ def test_bubble_sort_descending():
 
     assert (result == test_arr)
 
-def test_bubble_sort_invalid():
+def test_bubble_sort_invalid(): # Test Case 3
     result = []
     input_arr = [64, 34, 25, 12, 22, 11, 90]
 
